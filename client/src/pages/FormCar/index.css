@@ -1,0 +1,42 @@
+.form-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-car__form {
+  width: 20%;
+  height: 350px;
+  border-radius: 20px;
+  background-color: #91cbde;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 60px;
+  flex-wrap: wrap;
+  --webkit-box-shadow: 4px 4px 65px 45px #3ca0d08f;
+  -moz-box-shadow: 4px 4px 65px 45px #3ca0d08f;
+  box-shadow: 4px 4px 65px 45px #3ca0d08f;
+}
+
+.signup__form-elems {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.input-hidden {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  line-height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}

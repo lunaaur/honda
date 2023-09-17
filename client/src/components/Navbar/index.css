@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #a9d6e5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 110px;
+  list-style-type: none
+}
+
+
+.list__item {
+  width: 160px;
+  height: 40px;
+  background-color: #7dc2d8;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 150px;
+}
+
+.list__item:hover {
+  background-color: #3ca0d08f;
+}
+
+.user-nav {
+  display: flex;
+  justify-content: center;
+}
